@@ -107,9 +107,10 @@ box-shadow: 2px 4px 5px grey;
 
 }
 .footer{
-    margin-top: 230px;
+    margin-top: 250px;
     height: 50px;
-    background-color: darkgrey;
+    background-color: #000;
+    color: #fff;
 }
 .footer h6{
     line-height:  50px;
@@ -184,6 +185,8 @@ box-shadow: 2px 4px 5px grey;
         
         height: 1500px;
     }
+    .footer{
+        margin-top: 1100px;
 
 }
 
