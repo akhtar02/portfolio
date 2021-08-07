@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand{
+    color: #09099b !important;
+    font-size: 28px !important;
+    padding-left: 35px;
+}
+.navbar{
+    background-color: #fff !important;
+    border-bottom: 2px solid #09099b;
+ 
+}
+
+.navbar-nav a {
+    color:#09099b !important;
+    margin: 0 10px;
+    padding: 10px auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.navbar .navbar-toggler {
+    color: #fff;
+}
+
+.banner{
+    padding-top:50px;
+    height: 100vh;
+    background-color: #09099b;
+}
+
+ 
+.intro{
+    margin: 100px;
+}
+
+.intro h1{
+    margin-top: 50px;
+    font-size: 50px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 20px;
+}
+
+.intro p{
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: justify;
+    color: #fff;
+    padding: 20px;
+
+}
+
+.about-header{
+    color: #09099b;
+}
+.banner-img{
+    height: 300px;
+    width: 100%;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+
+    /* padding: 40px auto !important; */
+}
+.pro-img{
+    height: 300px;
+    border: 2px solid #09099b;
+    border-radius: 100%;
+}
+
+.p-intro{
+font-size: 24px;
+text-align: justify;
+margin-top: 30px;
+padding: 50px;
+display: flex;
+justify-content: center;
+color: #09099b;
+
+}
+.card{
+    background-color: #09099b !important;
+    color: #fff;
+}
+
+ .card-body i {
+    float: right;
+    font-size: 24px;
+}
+
+.contact-heading {
+    color: #09099b;
+}
+
+.social-icon{
+    font-size: 36px;
+    padding: 20px;
+}
+
+.social-icon a{
+    padding: 5px;
+}
+footer{
+    background-color: #09099b;
+    padding: 12px;
+    color: #fff;
+}
+@media only screen and (max-width: 768px) {
+    .intro h1{
+        font-size: 32px;
+        padding: 10px
+
+    }
+
+    .intro p{
+        font-size: 18px;
+        padding: 10px;
+    }
+  }
