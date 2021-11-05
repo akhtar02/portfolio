@@ -117,6 +117,12 @@ footer{
     padding: 12px;
     color: #fff;
 }
+.whatsapp_widget{
+    position: fixed;
+    bottom: 40px;
+    left:40px !important;
+    
+}
 @media only screen and (max-width: 768px) {
     .intro h1{
         font-size: 32px;
